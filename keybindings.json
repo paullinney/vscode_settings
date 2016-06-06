@@ -1,0 +1,7 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "alt+1", "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+f2", "command": "bookmarks.toggle", "when": "editorTextFocus" },
+    { "key": "f2", "command": "bookmarks.jumpToNext", "when": "editorTextFocus" },
+    { "key": "ctrl+shift+f2", "command": "bookmarks.jumpToPrevious", "when": "editorTextFocus" }
+] 
